@@ -1,0 +1,144 @@
+@media (min-width:1770px)
+
+/* lg*/
+    {
+    .container {
+        max-width: 1650px;
+        padding: 0;
+        width: 95%;
+    }
+}
+
+@media (min-width:1500px) and (max-width:1769px)
+
+/* md*/
+    {
+    .container {
+        max-width: 1400px;
+        padding: 0;
+        width: 95%;
+
+    }
+}
+
+@media (min-width:1200px) and (max-width:1499px)
+
+/* md*/
+    {
+    .container {
+        max-width: 1110px;
+        padding: 0;
+        width: 95%;
+
+    }
+}
+
+@media (min-width:992px) and (max-width:1199px)
+
+/* md*/
+    {}
+
+@media (min-width:768px) and (max-width:991px)
+
+/* sm*/
+    {}
+
+@media (max-width:767px)
+
+/* xs*/
+    {
+    .noidung-banner {
+        position: inherit !important;
+        background-color: white !important;
+    }
+
+    .noidung-banner h1 {
+        font-size: 32px !important;
+        color: black !important;
+    }
+
+    .noidung-banner p {
+        color: black !important;
+        /* font-family: 'Mountains of Christmas', display; */
+        margin-bottom: 24px;
+    }
+    .lop-phu-banner {
+        padding-top: 5% !important;
+        padding-left: 0% !important;
+        text-align: center;
+    }
+
+    .item-danhmuc{
+        margin-bottom: 20px;
+    }
+    .item-danhmuc-cao{
+        height: 345px !important;
+    }
+    .item-danhmuc-mobi{
+        height: 160px !important;
+    }
+
+    .title-cacmuc {
+        margin: 50px 0 20px 0 !important;
+    }
+
+    .img-item-sp-1 {
+        height: 160px !important;
+    }
+    .item .img-item-sp-1 {
+        height: 300px !important;
+    }
+    .slide_toppic .item {
+        margin: 0px !important;
+    }
+    .item-sanpham-2 .add-cart {
+        margin-bottom: 0px !important;
+        margin-left: 0 !important;
+    }
+
+    .item-sanpham-2 .add-cart{
+        height: 45px !important;
+        transition: 0.5s;
+        width: 100% !important;
+    }
+    .title-cacmuc-1{
+        font-size: 20px !important;
+    font-weight: 200 !important;
+    }
+    .img-tin {
+        width: 100%;
+        height: auto !important;
+        position: initial !important;
+
+    }
+    .noidung-tin {
+        position: sticky !important;
+        left: 0px !important;
+        padding-top: 50px !important;
+        z-index: 3;
+        text-align: center;
+    }
+    .noidung-tin h3 {
+        color: black !important;
+    }
+    .noidung-tin p {
+        color: black !important;
+    }
+
+    .lop-phu-tin {
+        background-color: none !important;
+        display: none !important;
+    }
+
+    .img-tin a img {
+        border-radius: 20px !important;
+    }
+    
+}
+
+@media (max-width:480px) {}
+
+
+.visible-480 {
+    display: none;
+}
